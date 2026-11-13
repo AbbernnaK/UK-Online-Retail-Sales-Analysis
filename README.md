@@ -14,11 +14,13 @@ The project focuses on answering business questions through data analysis and vi
 - Tableau: Created an interactive dashboard to visualise key findings.
 
 ## Dataset
+
 The dataset was obtained from Kaggle and contains retail transaction records from a UK-based online retailer.
 
 It includes approximately 500,000 transaction records and eight columns:
 
-### Column	
+### Column
+
 - TransactionNo: Order identifier
 - Date: Date of the transaction
 - ProductNo: Unique product identifier
@@ -45,6 +47,7 @@ A separate working table named "Sales" was created from the original imported ta
 SQL was used to prepare the working dataset for analysis.
 
 The cleaning process included:
+
 - Removing duplicate records.
 - Identifying and handling missing values.
 - Excluding cancelled transactions identified by transaction numbers beginning with C.
@@ -58,6 +61,7 @@ The original imported table was retained separately to preserve the raw data.
 SQL queries were used to investigate sales performance and answer key business questions.
 
 The analysis included:
+
 - Total revenue and transaction count.
 - Average order value.
 - Number of unique customers.
@@ -72,6 +76,7 @@ The analysis included:
 Tableau was used to create a dashboard presenting the main findings through key performance indicators (KPIs) and charts.
 
 The dashboard includes:
+
 - Total revenue.
 - Total transactions.
 - Average order value.
